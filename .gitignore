@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+historique/
+out/
+dist/
+*.tmp
+.env

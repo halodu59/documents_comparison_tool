@@ -1,0 +1,48 @@
+<title>Réconciliation Rouleaux MES</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/*__CSS__*/
+</style>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-l">
+        <span class="mark" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 20 20"><circle cx="7.5" cy="10" r="5.5" fill="none" stroke="var(--mes)" stroke-width="2"/><circle cx="7.5" cy="10" r="1.6" fill="var(--mes)"/><circle cx="12.5" cy="10" r="5.5" fill="none" stroke="var(--phy)" stroke-width="2"/><circle cx="12.5" cy="10" r="1.6" fill="var(--phy)"/></svg></span>
+        <div style="min-width:0">
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><h1>Rapprochement MES ↔ inventaire physique</h1><span class="badge" id="demo-badge">Jeu fictif</span></div>
+          <div class="sub"><input class="name-inp" id="an-name" aria-label="Nom de l'analyse" maxlength="80"><span id="sub"></span></div>
+        </div>
+      </div>
+      <div class="brand-r">
+        <button class="btn" data-act="new">Nouvelle analyse</button>
+        <button class="btn" id="btn-save" data-act="save">Enregistrer</button>
+        <button class="btn" data-act="dl-md">Brief .md</button>
+        <button class="btn primary" data-act="xlsx">Exporter Excel</button>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Vues"></nav>
+  </div>
+</header>
+<main class="wrap">
+  <input type="file" id="fileinput" class="hidden-input" multiple accept=".xlsx,.xlsm,.xls,.csv,.txt,.json" aria-label="Choisir des fichiers">
+  <div class="kpis" id="kpis"></div>
+  <div id="view" role="tabpanel"></div>
+  <p class="note" style="margin-top:28px">PoC · calcul 100 % local dans le navigateur · règles et colonnes = hypothèses à valider · historique des versions dans l'onglet Historique · version fichier HTML : fonctionne hors ligne, sans installation.</p>
+</main>
+<!--__XLSX__-->
+<script>
+/*__READER__*/
+</script>
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+window.__SERVER__ = /*__SERVER__*/null;
+window.__CONFIG__ = /*__CONFIG__*/;
+window.__DEMO__ = /*__DEMO__*/;
+</script>
+<script>
+/*__APP__*/
+</script>

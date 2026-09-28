@@ -1,0 +1,28 @@
+{
+  "_note": "Paramètres partagés par l'app web et le script Python. Toutes les valeurs sont des HYPOTHÈSES à confirmer avec Harold.",
+  "tolerance_abs_m": 2.0,
+  "tolerance_pct": 0.5,
+  "roll_prefixes": ["ACD", "CCD"],
+  "stale_days": 21,
+  "window_days": 45,
+  "inventory_date": "",
+  "in_scope_locations": [],
+  "perimeter_map": {
+    "AN-CAL-001": "Anode · Calandré",
+    "CA-COA-001": "Cathode · Enduit",
+    "CA-CAL-001": "Cathode · Calandré",
+    "CA-NOT-001": "Cathode · Notché",
+    "coated": "Cathode · Enduit",
+    "calendered": "Cathode · Calandré",
+    "notched": "Cathode · Notché"
+  },
+  "file_defaults": {
+    "Inventaire_physique_Anode": { "perimeter": "Anode · Calandré" }
+  },
+  "owners": {
+    "MES": "Équipe MES (Baptiste)",
+    "OPS": "Ops / Tech supply APU",
+    "CTRL": "Contrôle inventaire (Harold)"
+  },
+  "column_overrides": {}
+}
